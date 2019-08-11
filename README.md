@@ -20,7 +20,7 @@ git  clone  https://github.com/heekhero/pytorch-classification-simple/blob/maste
 
 ### Prerequisites
 * Python 3.6
-* Pytorch 1.1.0 and torchvision 0.3.0
+* Pytorch 1.1.0 and torchvision 0.3.0 [Install Instrucments](https://pytorch.org/get-started/locally/)
 * CUDA 9.0 or higher
 
 ### Data Preparation

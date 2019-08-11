@@ -7,5 +7,5 @@ In this repository, some important features of a deep classification model are w
 * **It's pure Python code.** That means a beginner can easily understand the workflow of it and there will not be any confused and terrible C++ code for you to get confused!!!
 * **Hyperparameters are flexible to change.** We took the method used by [rbgirshick/py-faster-rcnn](https://github.com/rbgirshick/py-faster-rcnn). In the form of [easydict](https://pypi.org/project/easydict/), all the parameters needed were set in config file. You can set some parameters freely to debug before the program runs.
 
-### Not Supported
+### Future Work
 - [ ] Multiple GPUs training

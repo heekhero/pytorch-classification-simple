@@ -18,8 +18,13 @@ Firstly, clone the entire project
 git  clone  https://github.com/heekhero/pytorch-classification-simple/blob/master/README.md
 ```
 
+### Prerequisites
+* Python 3.6
+* Pytorch 1.1.0 and torchvision 0.3.0
+* CUDA 9.0 or higher
+
 ### Data Preparation
-create dataset folders:
+create data folders:
 ```
 cd classification
 mkdir data

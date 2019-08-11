@@ -32,3 +32,8 @@ cd data
 mkdir train
 mkdir test
 ```
+
+prepare your own dataset in form of folder + images and I highly recommended you to create soft link with respect to these prepared datasets in train and test folder you have created before.
+
+The tree architecture of the folders should look like this:
+

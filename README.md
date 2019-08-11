@@ -63,4 +63,7 @@ data
             ...
         ...
 ```
-PS: class_X is the true class of your images e.g. person, train, bike... and the file name of images is not important but need to follow the correct image suffix.
+PS: class_X is the true class of your images e.g. person, train, bike... and the file name of images is not important but need to follow the correct image suffix. For simplification, run the follow instrction to prepare a simple datasets in terms of Apple and Orange classification.
+```
+
+```

@@ -49,6 +49,7 @@ data
             yyy.jpg
             zzz.jpg
             ...
+        ...
     test
         class_1
             xxx.jpg
@@ -60,5 +61,6 @@ data
             yyy.jpg
             zzz.jpg
             ...
+        ...
 ```
-
+PS: class_X is the true class of your images e.g. person, train, bike... and the file name of images is not important but need to follow the correct image suffix.

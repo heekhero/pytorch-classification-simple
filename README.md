@@ -8,4 +8,4 @@ In this repository, some important features of a deep classification model are w
 * **Hyperparameters are flexible to change.** We took the method used by [rbgirshick/py-faster-rcnn](https://github.com/rbgirshick/py-faster-rcnn). In the form of [easydict](https://pypi.org/project/easydict/), all the parameters needed were set in config file. You can set some parameters freely to debug before the program runs.
 
 ### Not Supported
-- [] Multiple GPUs training
+- [ ] Multiple GPUs training

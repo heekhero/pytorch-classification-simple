@@ -39,6 +39,26 @@ The tree architecture of the folders should look like this:
 ```
 data
     train
+        class_1
+            xxx.jpg
+            yyy.jpg
+            zzz.jpg
+            ...
+        class_2
+            xxx.jpg
+            yyy.jpg
+            zzz.jpg
+            ...
     test
+        class_1
+            xxx.jpg
+            yyy.jpg
+            zzz.jpg
+            ...
+        class_2
+            xxx.jpg
+            yyy.jpg
+            zzz.jpg
+            ...
 ```
 

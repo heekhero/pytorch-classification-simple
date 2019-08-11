@@ -8,4 +8,5 @@ In this repository, some important features of a deep classification model are w
 * **Hyperparameters are flexible to change.** We took the method used by [rbgirshick/py-faster-rcnn](https://github.com/rbgirshick/py-faster-rcnn). In the form of [easydict](https://pypi.org/project/easydict/), all the parameters needed were set in config file. You can set some parameters freely to debug before the program runs.
 
 ### Future Work
-- [ ] Multiple GPUs training
+- [ ] Multiple GPUs training. Because the memory usage of general classification tasks are considerable due to the large minibatch, we will add some codes to support multiple GPUs training mode to accelerate the trainingn process and further enlarge the size of a minibatch as much as possible.
+- [ ] Customizing image preprocessing process. In our now version of code, we simply use the[ Compose](https://pytorch.org/docs/stable/torchvision/transforms.html?highlight=compose#torchvision.transforms.Compose) function of Torchvision to generate the method of image preprocessing process. In the future vision, we will replace them with our lambda process function

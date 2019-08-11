@@ -3,9 +3,10 @@
 
 In this repository, some important features of a deep classification model are written by the author manually instead of calling pytorch library directly e.g. the softmax cross entropy loss in training process and a number of connected [dense blocks](https://arxiv.org/abs/1608.06993) which are use to define the base architecture of netowrks.
 
-### Features
+### Good Features
 * **It's pure Python code.** That means a beginner can easily understand the workflow of it and there will not be any confused and terrible C++ code for you to get confused!!!
 * **Hyperparameters are flexible to change.** We took the method used by [rbgirshick/py-faster-rcnn](https://github.com/rbgirshick/py-faster-rcnn). In the form of [easydict](https://pypi.org/project/easydict/), all the parameters needed were set in config file. You can set some parameters freely to debug before the program runs.
+* **Tensorboard Support** To visualize the training process,  we introduce tensorboardX to our porject for a better visualization experience.
 
 ### Future Work
 - [ ] Multiple GPUs training. Because the memory usage of general classification tasks are considerable due to the large minibatch, we will add some codes to support multiple GPUs training mode to accelerate the trainingn process and further enlarge the size of a minibatch as much as possible.

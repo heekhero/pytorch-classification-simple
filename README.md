@@ -18,15 +18,15 @@ Firstly, clone the entire project
 git  clone  https://github.com/heekhero/pytorch-classification-simple
 ```
 
-Then use pip to prepare the environments:
-```
-pip install -r requirements.txt
-```
-
 ### Prerequisites
 * Python 3.6
 * Pytorch 1.1.0 and torchvision 0.3.0 [Installation instructions](https://pytorch.org/get-started/locally/)
 * CUDA 9.0 or higher
+
+Then use pip to prepare other packages:
+```
+pip install -r requirements.txt
+```
 
 ## Data Preparation
 create data folders:

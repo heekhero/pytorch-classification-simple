@@ -93,7 +93,7 @@ If you want to evaluate the performance of your trained model, simply run
 CUDA_BISIBLE_DEVICES=$GPU_ID python test.py
 ```
 
-# Citation
+## Citation
 Please site this repository if you utilize this project.
 
     @article{heekhero2019clas,

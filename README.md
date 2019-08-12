@@ -75,7 +75,6 @@ For simplification, run the follow instrction to prepare a simple datasets in te
 bash ./scripts/prepare_datasets.sh
 ```
 ## Train
-
 You can set all the parameters used in training and testing period as you wish in lib/utils/config.py!!! Without any boring terminal parameters!!! Anything is changeable!!!
 
 Simply run with:
@@ -87,4 +86,20 @@ If you want to use tensorboard and you just need to set __C.TRAIN.USE_TFBOARD=Tr
 tensorboard --logdir='logs' --port=6006
 ```
 Then you can view the loss curve convergence during your training through [localhost:6006](http://localhost:6006)
+
+## Test
+If you want to evaluate the performance of your trained model, simply run
+```
+CUDA_BISIBLE_DEVICES=$GPU_ID python test.py
+```
+
+# Citation
+Please site this repository if you utilize this project.
+
+ @article{heekhero2019clas,
+        Author = {heekhero},
+        Title = {A very simple Pytorch project for image classification},
+        Journal = {https://github.com/heekhero/pytorch-classification-simple},
+        Year = {2019}
+    }
 

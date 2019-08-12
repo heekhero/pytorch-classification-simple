@@ -75,7 +75,7 @@ For simplification, run the follow instrction to prepare a simple datasets in te
 bash ./scripts/prepare_datasets.sh
 ```
 ## Train
-You can set all the parameters used in training and testing period as you wish in lib/utils/config.py!!! Without any boring terminal parameters!!! Anything is changeable!!!
+You can set all the parameters used in training and testing period as you wish in **lib/utils/config.py**!!! Without any boring terminal parameters!!! Anything is changeable!!!
 
 Simply run with:
 ```
@@ -101,5 +101,6 @@ Please site this repository if you utilize this project.
         Title = {A very simple Pytorch project for image classification},
         Journal = {https://github.com/heekhero/pytorch-classification-simple},
         Year = {2019}
-    }
+    }     
+
 

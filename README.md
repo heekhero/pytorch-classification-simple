@@ -72,5 +72,5 @@ PS: class_X is the true class of your images e.g. person, train, bike... and the
 
 For simplification, run the follow instrction to prepare a simple datasets in terms of [Apple and Orange](https://people.eecs.berkeley.edu/~taesung_park/CycleGAN/datasets/) classification.
 ```
-bash ./scripts/prepare_dataset.sh
+bash ./scripts/prepare_datasets.sh
 ```

@@ -18,6 +18,11 @@ Firstly, clone the entire project
 git  clone  https://github.com/heekhero/pytorch-classification-simple/blob/master/README.md
 ```
 
+Then use pip to prepare the environments:
+```
+pip install -r requirements.txt
+```
+
 ### Prerequisites
 * Python 3.6
 * Pytorch 1.1.0 and torchvision 0.3.0 [Installation instructions](https://pytorch.org/get-started/locally/)

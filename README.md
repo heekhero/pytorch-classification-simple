@@ -15,7 +15,7 @@ In this repository, some important features of a deep classification model are w
 ## Installation
 Firstly, clone the entire project
 ```
-git  clone  https://github.com/heekhero/pytorch-classification-simple/blob/master/README.md
+git  clone  https://github.com/heekhero/pytorch-classification-simple
 ```
 
 Then use pip to prepare the environments:

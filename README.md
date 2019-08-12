@@ -96,7 +96,7 @@ CUDA_BISIBLE_DEVICES=$GPU_ID python test.py
 # Citation
 Please site this repository if you utilize this project.
 
- @article{heekhero2019clas,
+    @article{heekhero2019clas,
         Author = {heekhero},
         Title = {A very simple Pytorch project for image classification},
         Journal = {https://github.com/heekhero/pytorch-classification-simple},

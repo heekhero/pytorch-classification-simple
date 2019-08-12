@@ -86,5 +86,5 @@ If you want to use tensorboard and you just need to set __C.TRAIN.USE_TFBOARD=Tr
 ```
 tensorboard --logdir='logs' --port=6006
 ```
-Then you can view the loss curve convergence during your training through [localhost:6006](localhost:6006)
+Then you can view the loss curve convergence during your training through [localhost:6006](http://localhost:6006)
 

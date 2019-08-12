@@ -28,7 +28,7 @@ pip install -r requirements.txt
 * Pytorch 1.1.0 and torchvision 0.3.0 [Installation instructions](https://pytorch.org/get-started/locally/)
 * CUDA 9.0 or higher
 
-### Data Preparation
+## Data Preparation
 create data folders:
 ```
 cd classification
@@ -74,3 +74,17 @@ For simplification, run the follow instrction to prepare a simple datasets in te
 ```
 bash ./scripts/prepare_datasets.sh
 ```
+## Train
+
+You can set all the parameters used in training and testing period as you wish in lib/utils/config.py!!! Without any boring terminal parameters!!! Anything is changeable!!!
+
+Simply run with:
+```
+CUDA_VISIBLE_DEVICES=$GPU_ID python train.py
+```
+If you want to use tensorboard and you just need to set __C.TRAIN.USE_TFBOARD=True and run with
+```
+tensorboard --logdir='logs' --port=6006
+```
+Then you can view the loss curve convergence during your training through [localhost:6006](localhost:6006)
+

@@ -15,18 +15,18 @@ In this repository, some important features of a deep classification model are w
 ## Installation
 Firstly, clone the entire project
 ```
-git  clone  https://github.com/heekhero/pytorch-classification-simple/blob/master/README.md
-```
-
-Then use pip to prepare the environments:
-```
-pip install -r requirements.txt
+git  clone  https://github.com/heekhero/pytorch-classification-simple
 ```
 
 ### Prerequisites
 * Python 3.6
 * Pytorch 1.1.0 and torchvision 0.3.0 [Installation instructions](https://pytorch.org/get-started/locally/)
 * CUDA 9.0 or higher
+
+Then use pip to prepare other packages:
+```
+pip install -r requirements.txt
+```
 
 ## Data Preparation
 create data folders:
@@ -38,7 +38,7 @@ mkdir train
 mkdir test
 ```
 
-Prepare your own dataset in form of folder + images and I highly recommended you to create soft link with respect to these prepared datasets in train and test folder you have created before.
+Prepare your own dataset in form of **folder + images** and I highly recommended you to create soft link with respect to these prepared datasets in train and test folder you have created before.
 
 The tree architecture of the folders should look like this:
 ```
@@ -93,7 +93,7 @@ If you want to evaluate the performance of your trained model, simply run
 CUDA_BISIBLE_DEVICES=$GPU_ID python test.py
 ```
 
-# Citation
+## Citation
 Please site this repository if you utilize this project.
 
     @article{heekhero2019clas,

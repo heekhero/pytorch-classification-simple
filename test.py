@@ -7,13 +7,15 @@ sys.path.insert(0, os.path.join(root_path, 'lib'))
 import torch.utils.data
 
 from model.network import NetWorks
+from model.vgg16 import vgg16
 from utils.config import cfg, get_classes
 from dataset.dataset import Dataset
 
 classes = get_classes(train=False)
 num_class = len(classes)
 
-net = NetWorks(num_class)
+# net = NetWorks(num_class)
+net = vgg16(pre_trained=False, num_classes=num_class)
 
 print('move model to CUDA devices...')
 if cfg.TEST.CUDA:
@@ -45,7 +47,7 @@ for i in range(num_data):
     input, label = data[0], data[1]
     if cfg.TEST.CUDA:
         input = input.cuda()
-        label = label.cuda()
+        label = label.cuda().long()
 
     output = net(input)
     predict = torch.argmax(output, dim=1).view(-1)
@@ -56,4 +58,4 @@ for i in range(num_data):
 
 precision = float(sign) / num_data
 
-print('The precision of your model is {}'.format(precision))
+print('The precision of your model is {:.3f}'.format(precision))

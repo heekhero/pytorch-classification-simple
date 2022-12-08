@@ -1,4 +1,4 @@
-certifi==2019.6.16
+certifi==2022.12.7
 cffi==1.12.3
 easydict==1.9
 numpy==1.17.0
